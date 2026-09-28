@@ -54,11 +54,11 @@ const productsData = [
     category: 'snow-speckle',
     categoryName: 'White Matte Snow Speckle',
     type: 'Platters',
-    dimension: '33 x 21 cm',
+    dimension: '33 x 2 cm',
     capacity: 'N/A',
     finish: 'White Matte Speckle',
     colors: ['#ffffff'],
-     image: 'img/URMIQUARTERPLATE.jpg',
+     image: 'img/ISLANDPLATTERBIGnew.jpg',
     description: 'Discover our chic white matte tableware, featuring subtle blank dots and bordered accents. Large 33 x 21 cm curved island platter.',
     badge: 'Bestseller',
     featured: true
@@ -118,7 +118,7 @@ const productsData = [
     capacity: 'N/A',
     finish: 'White Matte Speckle',
     colors: ['#ffffff'],
-    image: 'img/WhiteMatteSnowSpeckle.jpg',
+    image: 'img/ISLANDPLATTERBIGnew.jpg',
     description: 'Discover our chic white matte tableware, featuring subtle blank dots and bordered accents. Standard 24.5 x 13 cm serving platter.',
     badge: 'Prestige',
     featured: false
@@ -133,7 +133,7 @@ const productsData = [
     capacity: '250 ml',
     finish: 'White Matte Speckle',
     colors: ['#ffffff', '#d4af37'],
-    image: 'img/whitecups.jpg',
+    image: 'img/whitecupn.webp',
     description: 'Discover our chic white matte tableware, featuring subtle blank dots and bordered accents. 250 ml coffee cup.',
     badge: 'Trending',
     featured: true
@@ -482,7 +482,7 @@ const productsData = [
     capacity: 'N/A',
     finish: 'Grey Gloss Shine',
     colors: ['#4a5568'],
-    image: 'img/grey-island-big.jpg',
+    image: 'img/ISLANDPLATTERBIGnew.jpg',
     description: 'Sleek dark grey gloss 33 x 21 cm island platter.',
     badge: 'Luxury',
     featured: false
