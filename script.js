@@ -958,7 +958,7 @@ function handleContactSubmit(e) {
   const name = document.getElementById('inquiryName').value;
   const collection = document.getElementById('inquiryCollection').value;
   
-  alert(`Thank you, ${name}! Your inquiry regarding ${collection || "King's Table & Co. Royal Tableware"} has been recorded. Our Khurja sales team will contact you shortly.`);
+  alert(`Thank you, ${name}! Your inquiry regarding ${collection || "King's Table & Co. Royal Tableware"} has been recorded. Our Delhi,India sales team will contact you shortly.`);
   e.target.reset();
 }
 
@@ -977,3 +977,7 @@ function handleQuickInquirySubmit(e) {
   window.open(`https://wa.me/918077229191?text=${waText}`, '_blank');
   e.target.reset();
 }
+
+
+
+  

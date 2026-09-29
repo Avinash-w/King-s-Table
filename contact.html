@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>King's Table & Co. | Contact Us & Product Inquiry</title>
-  <meta name="description" content="Contact King's Table & Co. for bulk royal tableware inquiries, wholesale catalog pricing, and custom hotel/restaurant ceramic supply from Khurja, UP.">
+  <meta name="description" content="Contact King's Table & Co. for bulk royal tableware inquiries, wholesale catalog pricing, and custom hotel/restaurant ceramic supply from Delhi,India, UP.">
   
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,13 +17,28 @@
   
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="styles.css">
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.12.3/build/css/intlTelInput.css"
+/>
+
+<style>
+  .iti {
+    width: 100%;
+  }
+
+  .iti input {
+    width: 100%;
+    height: 45px;
+  }
+</style>
 </head>
 <body>
 
   <!-- Top Bar -->
   <div class="top-bar d-none d-md-block">
-    <div class="container d-flex justify-content-between align-items-center">
-      <div><i class="bi bi-geo-alt-fill text-warning me-1"></i> Khurja Artisanal Ceramic Hub, UP, India</div>
+    <div class="container d-flex justify-content-between align-items-center toptext">
+      <div><i class="bi bi-geo-alt-fill text-warning me-1"></i> Delhi,India</div>
       <div>
         <span class="me-3"><i class="bi bi-telephone-fill me-1"></i> +91 8077229191 / 9897998866</span>
         <span><i class="bi bi-envelope-fill me-1"></i> kingstableco@gmail.com</span>
@@ -53,12 +68,7 @@
           <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
           <!-- <li class="nav-item"><a class="nav-link" href="quality.html">Quality & Safety</a></li> -->
           <li class="nav-item"><a class="nav-link active" href="contact.html">Contact Us</a></li>
-          <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
-            <a href="https://wa.me/918077229191?text=Hello%20King%27s%20Table%20%26%20Co.%2C%20I%20want%20to%20send%20an%20inquiry." 
-               target="_blank" class="btn btn-primary-custom py-2 px-4 fs-6">
-              <i class="bi bi-whatsapp me-1"></i> Inquire Catalog
-            </a>
-          </li>
+          
         </ul>
       </div>
     </div>
@@ -75,7 +85,7 @@
   </section>
 
   <!-- Main Contact Section -->
-  <section class="py-5" style="background-color: #F3E7DC;">
+  <section class="py-5" style="background-color: #f3efec;">
     <div class="container">
       <div class="row g-5">
         
@@ -91,7 +101,7 @@
             <div class="contact-icon-box"><i class="bi bi-geo-alt-fill"></i></div>
             <div>
               <h6 class="fw-bold mb-1">Factory Address</h6>
-              <p class="text-muted small mb-0">Village Maujpur, Opp. Arshiya Limited, Sikri Road, Khurja-203131, District Bulandshahar (U.P.), India</p>
+              <p class="text-muted small mb-0">Delhi, India</p>
             </div>
           </div>
 
@@ -119,18 +129,7 @@
             </div>
           </div>
 
-          <div class="p-4 rounded-4 bg-success-subtle text-success border border-success-subtle">
-            <div class="d-flex align-items-center gap-3">
-              <i class="bi bi-whatsapp display-6"></i>
-              <div>
-                <h6 class="fw-bold mb-1">Instant WhatsApp Support</h6>
-                <a href="https://wa.me/918077229191?text=Hi%20King%27s%20Table%20%26%20Co.%2C%20I%20have%20an%20urgent%20tableware%20inquiry." 
-                   target="_blank" class="btn btn-sm btn-success rounded-pill px-3 mt-1">
-                  Chat Now (+91 8077229191)
-                </a>
-              </div>
-            </div>
-          </div>
+          
         </div>
 
         <!-- Interactive Inquiry Form -->
@@ -146,9 +145,23 @@
                   <input type="text" id="inquiryName" class="form-control" placeholder="Enter your full name" required>
                 </div>
                 <div class="col-md-6">
-                  <label class="form-label fw-semibold">Phone Number *</label>
-                  <input type="tel" id="inquiryPhone" class="form-control" placeholder="+91 XXXXX XXXXX" required>
+                  <div class="d-flex align-items-start gap-3 mb-4">
+  
+
+  <div class="flex-grow-1">
+    <h6 class="fw-bold mb-2">Phone / Mobile</h6>
+
+    <input
+      type="tel"
+      id="phone"
+      class="form-control"
+      placeholder="Enter phone number"
+    >
+  </div>
+</div>
                 </div>
+                
+
                 <div class="col-md-6">
                   <label class="form-label fw-semibold">Email Address</label>
                   <input type="email" id="inquiryEmail" class="form-control" placeholder="name@example.com">
@@ -187,7 +200,7 @@
   </section>
 
   <!-- High-Contrast Footer Section -->
-  <footer class="site-footer" style="background-image: linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)), url('./img/banner2new.jpeg'); background-size: cover; background-position: center; background-repeat: no-repeat;">
+   <footer class="site-footer" style="background-color: #2d3119;">
     <div class="container">
       <div class="row g-4 mb-5">
         <div class="col-lg-4">
@@ -201,7 +214,9 @@
             </div>
           </div>
           <p class="mb-3">
-            Crafted with precision and fired to royal perfection in Khurja, Uttar Pradesh, India.
+            Discover our refined collection of artisanal tableware, crafted with precision, durability, and timeless elegance. Designed for discerning hospitality professionals and the modern royal table.
+
+Crafted with Care. Designed for Distinction.
           </p>
           <div class="d-flex gap-2">
             <a href="#" class="social-icon-btn"><i class="bi bi-facebook"></i></a>
@@ -231,7 +246,7 @@
         <div class="col-lg-4 col-md-4">
           <h5 class="footer-title">Factory & Contact</h5>
           <ul class="contact-info-list">
-            <li><i class="bi bi-geo-alt-fill"></i> <span>Village Maujpur, Opp. Arshiya Limited, Sikri Road, Khurja-203131 (U.P.), India</span></li>
+            <li><i class="bi bi-geo-alt-fill"></i> <span>Delhi,India</span></li>
             <li><i class="bi bi-telephone-fill"></i> <span>+91 8077229191 / +91 9897998866</span></li>
             <li><i class="bi bi-envelope-fill"></i> <span>kingstableco@gmail.com</span></li>
             <li><i class="bi bi-globe"></i> <span>www.kingstableco.com</span></li>
@@ -245,6 +260,29 @@
       </div>
     </div>
   </footer>
+  <script src="https://cdn.jsdelivr.net/npm/intl-tel-input@25.12.3/build/js/intlTelInput.min.js"></script>
+
+<script>
+  const input = document.querySelector("#phone");
+
+  const iti = window.intlTelInput(input, {
+    initialCountry: "de",
+    onlyCountries: [
+      "at", "be", "bg", "hr", "cy", "cz",
+      "dk", "ee", "fi", "fr", "de", "gr",
+      "hu", "ie", "it", "lv", "lt", "lu",
+      "mt", "nl", "pl", "pt", "ro", "sk",
+      "si", "es", "se"
+    ],
+    separateDialCode: true,
+    countrySelectorMode: "DROPDOWN",
+    countrySearch: true,
+    loadUtils: () =>
+      import(
+        "https://cdn.jsdelivr.net/npm/intl-tel-input@25.12.3/build/js/utils.js"
+      )
+  });
+</script>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   <script src="script.js"></script>
