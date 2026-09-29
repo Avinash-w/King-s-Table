@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6, .brand-font {
 /* --- Page Header Banner (For Inner Pages) --- */
 .page-header-banner {
   background: linear-gradient(135deg, rgba(39, 49, 33, 0.429) 0%, rgba(27, 35, 22, 0.96) 100%),
-              url('img/subbg.jpeg') center/cover no-repeat;
+              url('https://img.magnific.com/premium-photo/beauty-product-poster_1198941-13519.jpg?w=1480') center/cover no-repeat;
   color: #ffffff;
   padding: 80px 0;
   text-align: center;
@@ -893,7 +893,7 @@ h1, h2, h3, h4, h5, h6, .brand-font {
 .process-step-card {
   background: #ffffff;
   padding: 32px 24px;
-  border-radius: var(--radius-card);
+  border-radius: 20px;
   border: 1px solid var(--border-light);
   box-shadow: var(--shadow-sm);
   text-align: center;

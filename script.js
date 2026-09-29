@@ -512,7 +512,7 @@ const productsData = [
     capacity: '210 ml',
     finish: 'Grey Gloss Shine',
     colors: ['#4a5568'],
-    image: 'img/CharcoalGreycoffemug.jpg',
+    image: 'https://img.magnific.com/free-photo/cozy-autumn-still-life-background-with-beautiful-cup_169016-6308.jpg?t=st=1790666135~exp=1790669735~hmac=c6d385ade2c73f34c117ad9452abb65e49f8bdb0cf704c4af99ee962832e25cb&w=1480',
     description: '210 ml glossy grey coffee mug S1.',
     badge: 'New',
     featured: true
@@ -584,7 +584,7 @@ const productsData = [
     capacity: '400 ml',
     finish: 'Matte & Gloss Accent',
     colors: ['#ffffff', '#2c3539'],
-    image: 'img/facemug.jpg',
+    image: 'https://img.magnific.com/free-photo/cup-coffee-coffee-beans_1252-901.jpg?t=st=1790665729~exp=1790669329~hmac=71e4ea0e639a017c4ea14e51137fc07fd471eed35393e90128a2dd008533e3d6&w=1480',
     description: 'Introducing our refined Cups Series, combining stylish design with exceptional craftsmanship. Statement 400ml milk mug featuring a minimalist 3D face outline sculpture.',
     badge: 'Sculpted Face',
     featured: true
